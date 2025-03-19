@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.camerapatch">
+
+    <application android:allowBackup="true">
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="Intercept camera intents and replace with gallery picks" />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="89" />
+    </application>
+</manifest>
